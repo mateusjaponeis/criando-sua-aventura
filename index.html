@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Mistério da Ilha Esquecida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="quarto antigo.jpeg" alt="">
+            <p>Enquanto explorava os arquivos antigos de seu avô, você encontrou um diário descrevendo uma ilha misteriosa que desapareceu do mapa há décadas. Decidido a desvendar o segredo, você embarca em uma jornada para encontrar essa ilha esquecida.</p>
+            <button class="btn-proximo" data-proximo="1">Buscar pistas em antigos mapas náuticos</button>
+            <button class="btn-proximo" data-proximo="2">Conversar com um velho marinheiro que conheceu a ilha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Nos mapas náuticos, você encontra uma referência a uma ilha que desapareceu misteriosamente após uma grande tempestade. Você decide seguir as coordenadas indicadas.</p>
+            <button class="btn-proximo" data-proximo="3">Navegar imediatamente para a ilha</button>
+            <button class="btn-proximo" data-proximo="4">Esperar a manhã para partir</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O velho marinheiro conta histórias de uma ilha coberta por névoa, onde as bússolas enlouquecem e os barcos desaparecem. Ele te alerta sobre os perigos, mas te dá uma dica: "Siga as estrelas quando as águas se acalmarem".</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as dicas e navegar à noite</button>
+            <button class="btn-proximo" data-proximo="6">Ignorar o conselho e partir ao amanhecer</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao navegar para a ilha imediatamente, você encontra uma tempestade furiosa. Seu barco é sacudido violentamente, e você se vê à deriva em mar aberto.</p>
+            <button class="btn-proximo" data-proximo="7">Lutar contra a tempestade</button>
+            <button class="btn-proximo" data-proximo="4">Tentar voltar ao porto</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="voltando para a casa.jpeg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Decidindo que a tempestade é perigosa demais, você volta ao porto. Talvez outro dia seja mais seguro para continuar a busca.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo as estrelas, você encontra águas tranquilas e navega para um ponto onde a ilha deveria estar. Aos poucos, uma névoa começa a surgir, revelando uma forma escura no horizonte.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em direção à névoa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você parte ao amanhecer, mas ao chegar nas coordenadas indicadas, não há sinal da ilha. Apenas mar aberto se estende diante de você.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar em outra direção</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Adentrando a névoa, você avista uma ilha coberta de vegetação densa e uma estranha sensação de deja-vu toma conta de você. Ao desembarcar, você encontra símbolos antigos esculpidos em pedras.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a floresta</button>
+            <button class="btn-proximo" data-proximo="10">Investigar os símbolos nas pedras</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide procurar em outra direção, mas a névoa se fecha ao redor do barco, tornando impossível a navegação. Você se vê forçado a retornar.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as estrelas como o marinheiro aconselhou</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao explorar a floresta, você descobre uma antiga vila abandonada, com casas cobertas de musgo. Algo nesta ilha parece suspenso no tempo.</p>
+            <button class="btn-proximo" data-proximo="11">Investigar a vila</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Os símbolos nas pedras contam a história de uma civilização perdida que guardava um grande segredo. Eles indicam que um templo está escondido nas profundezas da ilha.</p>
+            <button class="btn-proximo" data-proximo="11">Procurar o templo escondido</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="templo escondido.jpeg" alt="encontrando um templo perdido no meio da ilha">
+            <p>Dentro do templo, você descobre uma sala cheia de artefatos e inscrições que revelam os mistérios da ilha. Decidido a entender e proteger esse legado, você se prepara para contar ao mundo sobre sua descoberta.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
